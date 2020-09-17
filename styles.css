@@ -1,0 +1,26 @@
+
+.night{
+    background:black;
+    color:white;
+}
+
+.chapter-thumbnail {
+  margin-top: 10px;   
+  white-space : pre;  /* Preserva as quebras de linha e espaçamentos originais do texto */
+  overflow : hidden;  /* Não mostra barra de rolagem quando o texto for muito grande */
+  max-height: 150px;  /* Certifica que a box não ficará muito grande */
+  height : 150px;     
+  border-radius: 10px;
+}
+
+#mainViewer {
+  margin-top: 10px;
+  white-space : pre;   /* preserve the original line breaks (see above)*/
+}
+
+@media (max-width: 700px) {
+  .chapter-thumbnail {
+    height: 10%;
+    font-size: 55%;
+  }
+}
